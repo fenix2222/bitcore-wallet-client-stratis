@@ -96,6 +96,17 @@ export const Constants = {
         minDecimals: 0,
       }
     },
+    strat: {
+      toSatoshis: 100000000,
+      full: {
+        maxDecimals: 8,
+        minDecimals: 8,
+      },
+      short: {
+        maxDecimals: 6,
+        minDecimals: 2,
+      }
+    },
   },
   COINS: ['btc', 'bch', 'eth', 'usdc', 'pax', 'gusd', 'strat'],
   ERC20: ['usdc', 'pax', 'gusd'],

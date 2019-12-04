@@ -92,6 +92,17 @@ export declare const Constants: {
                 minDecimals: number;
             };
         };
+        strat: {
+            toSatoshis: number;
+            full: {
+                maxDecimals: number;
+                minDecimals: number;
+            };
+            short: {
+                maxDecimals: number;
+                minDecimals: number;
+            };
+        };
     };
     COINS: string[];
     ERC20: string[];
