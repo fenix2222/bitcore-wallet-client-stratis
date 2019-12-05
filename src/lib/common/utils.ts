@@ -20,7 +20,7 @@ var Bitcore_ = {
   btc: Bitcore,
   bch: BitcoreLibCash,
   eth: Bitcore,
-  strat: Bitcore
+  strat: require('bitcore-lib-stratis')
 };
 var PrivateKey = Bitcore.PrivateKey;
 var PublicKey = Bitcore.PublicKey;

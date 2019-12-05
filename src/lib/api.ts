@@ -1,6 +1,7 @@
 'use strict';
 
 import * as CWC from 'crypto-wallet-core';
+import * as BitcoreLibStratis from 'bitcore-lib-stratis';
 import { EventEmitter } from 'events';
 import _ from 'lodash';
 import sjcl from 'sjcl';
@@ -21,7 +22,7 @@ var Bitcore_ = {
   btc: CWC.BitcoreLib,
   bch: CWC.BitcoreLibCash,
   eth: CWC.BitcoreLib,
-  strat: CWC.BitcoreLib
+  strat: BitcoreLibStratis
 };
 var Mnemonic = require('bitcore-mnemonic');
 var url = require('url');

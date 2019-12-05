@@ -12,7 +12,8 @@
     ],
     // "no-any": true,
     // Temporarily relax rules
-    "member-ordering": false,
+    "ordered-imports": false,
+    "member-ordering": false,    
     "variable-name": false,
     "no-empty": false,
     "no-shadowed-variable": false,
