@@ -24,6 +24,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var CWC = __importStar(require("crypto-wallet-core"));
+var BitcoreLibStratis = __importStar(require("bitcore-lib-stratis"));
 var events_1 = require("events");
 var lodash_1 = __importDefault(require("lodash"));
 var sjcl_1 = __importDefault(require("sjcl"));
@@ -43,7 +44,7 @@ var Bitcore_ = {
     btc: CWC.BitcoreLib,
     bch: CWC.BitcoreLibCash,
     eth: CWC.BitcoreLib,
-    strat: CWC.BitcoreLib
+    strat: BitcoreLibStratis
 };
 var Mnemonic = require('bitcore-mnemonic');
 var url = require('url');
