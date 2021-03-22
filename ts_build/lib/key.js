@@ -251,7 +251,7 @@ var Key = (function () {
         else if (opts.coin == 'eth') {
             coinCode = '60';
         }
-        else if (opts.coin == 'strat') {
+        else if (opts.coin == 'strax') {
             coinCode = '105';
         }
         else {

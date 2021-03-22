@@ -96,7 +96,7 @@ export const Constants = {
         minDecimals: 0,
       }
     },
-    strat: {
+    strax: {
       toSatoshis: 100000000,
       full: {
         maxDecimals: 8,
@@ -108,9 +108,9 @@ export const Constants = {
       }
     },
   },
-  COINS: ['btc', 'bch', 'eth', 'usdc', 'pax', 'gusd', 'strat'],
+  COINS: ['btc', 'bch', 'eth', 'usdc', 'pax', 'gusd', 'strax'],
   ERC20: ['usdc', 'pax', 'gusd'],
-  UTXO_COINS: ['btc', 'bch', 'strat'],
+  UTXO_COINS: ['btc', 'bch', 'strax'],
   TOKEN_OPTS: {
     '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': {
       name: 'USD Coin',

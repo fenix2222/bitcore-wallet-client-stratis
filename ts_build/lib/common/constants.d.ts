@@ -92,7 +92,7 @@ export declare const Constants: {
                 minDecimals: number;
             };
         };
-        strat: {
+        strax: {
             toSatoshis: number;
             full: {
                 maxDecimals: number;
